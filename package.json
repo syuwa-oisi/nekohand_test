@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "copy C:\Users\yuuki\nekohand_test\build\index.html C:\Users\yuuki\nekohand_test\build\404.html",
+    "postbuild": "copy C:\\Users\\yuuki\\nekohand_test\\build\\index.html C:\\Users\\yuuki\\nekohand_test\\build\\404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
