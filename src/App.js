@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Header/>
       <UpperMenu/>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
           <Home />
