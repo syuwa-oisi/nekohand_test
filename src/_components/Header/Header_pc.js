@@ -1,6 +1,6 @@
 import React from 'react';
 import Select from 'react-select';
-import HeaderLogo from '../_assets/images/png/Header_logo.png';
+import HeaderLogo from '../../_assets/images/png/Header_logo.png';
 import './Header_pc.css';
 import 'react-select-css/dist/react-select-css.min.css';
 
@@ -18,8 +18,10 @@ class Header extends React.Component {
   render() {
     return (
       <div className='header'>
-        <div className='header-logo'>
-          <img src= {HeaderLogo} alt="Logo"/>
+        <div className='header-logo' href="/">
+          <a href="/">
+          <img src= {HeaderLogo} alt="Logo" href="/"/>
+          </a>
         </div> 
         <div className="check">                   
           <Select options={options} />

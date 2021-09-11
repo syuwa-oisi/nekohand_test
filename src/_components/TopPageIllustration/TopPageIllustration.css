@@ -1,0 +1,15 @@
+.illustlation{
+    position: relative;
+    text-align:right;
+    z-index: -1;
+}
+.top-illust img{
+    width: 70%;
+    height: 60%;
+}
+.title-logo img{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 30%;
+}

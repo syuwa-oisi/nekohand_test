@@ -10,14 +10,14 @@
     float: left;
   }
   .check {
-    width: 150px;
-    padding-top: 15px;
-    padding-left: 20px;
+    width: 20%;
+    padding-top: 1%;
+    padding-left: 2%;
     float: left;
   }
   .searchbox {
-    width: 500px;
-    padding-top: 15px;
-    padding-left: 10px;
+    width: 50%;
+    padding-top: 1%;
+    padding-left: 2%;
     float: left;
   }
