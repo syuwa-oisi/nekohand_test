@@ -1,0 +1,23 @@
+.header {
+    height: 64px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .header-logo img {
+    width: 15%;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+  }
+  .check {
+    width: 150px;
+    padding-top: 15px;
+    padding-left: 20px;
+    float: left;
+  }
+  .searchbox {
+    width: 500px;
+    padding-top: 15px;
+    padding-left: 10px;
+    float: left;
+  }
