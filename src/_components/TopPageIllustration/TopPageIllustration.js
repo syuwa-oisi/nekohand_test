@@ -1,5 +1,5 @@
 import React from 'react';
-import Illustlation from'../../_assets/images/jpg/test_illust_1.jpg';
+import Illustlation from'../../_assets/images/jpg/ilust_rough.jpg';
 import TitleLogo from '../../_assets/images/png/logo_black.png';
 import './TopPageIllustration.css';
 

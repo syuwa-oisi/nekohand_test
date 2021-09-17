@@ -1,31 +1,31 @@
 import React from 'react';
-import './BasicPlate.css';
+import './WidePlate.css';
 
-class BasicPlate extends React.Component {
+class WidePlate extends React.Component {
     render() {
         const Price =  '\xA5'+ this.props.PlateInformation.Price
         return(
             <div>
-                <div className='OutlineBasicBox'>
-                    <div className='RankingPlate'>
+                <div className='OutlineWideBox'>
+                    <div className='RankingNum'>
                         <p className='RankLetter'>{this.props.PlateInformation.RankOrCategory}</p>
                     </div>
-                    <div className='ImageBox'>
+                    <div className='WideImageBox'>
                      <img src={this.props.PlateInformation.ImageURL} alt="CardImage"/>
                     </div>
-                    <div className='PackName'>
+                    <div className='PackNameWide'>
                         <p>{this.props.PlateInformation.PackName}</p>
                     </div>
-                    <div className='CardNum'>
+                    <div className='CardNumWide'>
                         <p>{this.props.PlateInformation.CardNum}</p>
                     </div>
-                    <div className='Rarity'>
+                    <div className='RarityWide'>
                         <p>{this.props.PlateInformation.Rarity}</p>
                     </div>
-                    <div className='CardName'>
+                    <div className='CardNameWide'>
                         <p>{this.props.PlateInformation.CardName}</p>
                     </div>
-                    <div className='Price'>
+                    <div className='PriceWide'>
                         <p>{Price}</p>
                     </div>
                 </div>
@@ -33,4 +33,4 @@ class BasicPlate extends React.Component {
         );
     }
 }
-  export default BasicPlate;
+  export default WidePlate;

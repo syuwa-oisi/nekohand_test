@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
-import logo from './_assets/images/png/logo_black.png';
 import Header from './_components/Header/Header_pc.js';
 import UpperMenu from './_components/UpperMenu/UpperMenu_pc.js';
 import Footer from './_components/Footer/Footer'

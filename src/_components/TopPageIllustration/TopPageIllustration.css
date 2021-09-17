@@ -4,7 +4,7 @@
     z-index: -1;
 }
 .top-illust img{
-    width: 70%;
+    width: 100%;
     height: 60%;
 }
 .title-logo img{
@@ -12,4 +12,5 @@
     top: 30%;
     left: 0%;
     width: 30%;
+    opacity:0.1;
 }
