@@ -5,10 +5,10 @@ class History extends React.Component {
     render() {
         return(
             <div>
-                <div  className = 'RankingColHeader'>
-                    <div className='RankingTitle'>
+                <div  className = 'HistryColHeader'>
+                    <div className='HistryTitle'>
                         <p>{this.props.RankingTitle}</p>
-                        <div className='RankingSubTitle'>
+                        <div className='HistrySubTitle'>
                             <p>{this.props.RankingSubTitle}</p>
                         </div>
                     </div>

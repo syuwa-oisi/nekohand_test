@@ -16,16 +16,19 @@
     flex-flow: column;
     justify-content:flex-end;
     align-items: center;
-    font-size: 56px;
-    font-weight:bolder; /*太字に*/
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    width: fit-content;
-    padding-left: 2%;
+    width: 40vw;
 }
-.RankingSubTitle{
+.Title{
+  font-size: 5vw;
+  font-weight:bolder; /*太字に*/
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-left: 2%;
+  padding-bottom: 1vw;
+}
+.SubTitle{
     text-align: left;
     color:black;
-    font-size: 40px;
+    font-size: 3.5vw;
     font-weight:bolder; /*太字に*/
     font-family: 'M PLUS Rounded 1c', sans-serif;
     margin-top:-10% ;
@@ -40,6 +43,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .Daily{
     border: 2px solid #000;
