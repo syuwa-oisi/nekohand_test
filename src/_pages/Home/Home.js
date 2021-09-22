@@ -6,6 +6,7 @@ import RankingCol from '../../_components/RankingCol/RankingCol.js'
 import NewItems from '../../_components/NewItems/NewItems.js'
 import History from '../../_components/History/History.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Home.css'
 
 function Home() {
   return (

@@ -1,7 +1,8 @@
 .RankingPlates{
     display: flex;
     width: 100%;
-    border: 5px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
     border-color: black;
     background-color: lightslategray;
     overflow-x: scroll;
@@ -116,14 +117,18 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff8095;
-  border-radius: 5px;
+  background:gray;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:black;
+  border-radius: 6px;
 }
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
 }
 ::-webkit-scrollbar-track {
-  background: #ffe6ea;
+  background: lightgray;
   border-radius: 5px;
 }

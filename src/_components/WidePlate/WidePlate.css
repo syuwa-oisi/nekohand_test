@@ -44,18 +44,18 @@
 }
 .PackNameWide{
     position: absolute;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 0%;
     border-color: #000000;
     width: 64px;
     height: 24px;
     bottom: 92px;
-    right: 24px;
+    right: 8px;
 
 }
 .CardNumWide{
     position: absolute;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 0%;
     border-color: #000000;
     width: 64px;
@@ -66,13 +66,13 @@
 }
 .RarityWide{
     position: absolute;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 0%;
     border-color: #000000;
     width: 64px;
     height: 24px;
     bottom: 44px;
-    right: 24px;
+    right: 8px;
 
 }
 .CardNameWide{
@@ -80,7 +80,7 @@
     border: 1px solid;
     border-radius: 0%;
     border-color: #000000;
-    width: 208px;
+    width: 192px;
     height: 32px;
     bottom:-2px;
     left: 3px;
