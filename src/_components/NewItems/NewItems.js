@@ -9,8 +9,10 @@ class NewItems extends React.Component {
             <div>
                 <div  className = 'NewItemsHeader'>
                     <div className='NewItemsTitle'>
-                        <p>{this.props.RankingTitle}</p>
-                        <div className='NewItemsSubTitle'>
+                        <div className='Title'>
+                            <p>{this.props.RankingTitle}</p>
+                        </div>
+                        <div className='SubTitle'>
                             <p>{this.props.RankingSubTitle}</p>
                         </div>
                     </div>

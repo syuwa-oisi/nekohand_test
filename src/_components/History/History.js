@@ -7,8 +7,10 @@ class History extends React.Component {
             <div>
                 <div  className = 'HistryColHeader'>
                     <div className='HistryTitle'>
-                        <p>{this.props.RankingTitle}</p>
-                        <div className='HistrySubTitle'>
+                        <div className='Title'>
+                            <p>{this.props.RankingTitle}</p>
+                        </div>
+                        <div className='SubTitle'>
                             <p>{this.props.RankingSubTitle}</p>
                         </div>
                     </div>
