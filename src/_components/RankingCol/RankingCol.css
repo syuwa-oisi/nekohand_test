@@ -47,7 +47,7 @@
 }
 .Daily{
   border: 2px solid #000;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight:bolder; /*太字に*/
   font-family: 'M PLUS Rounded 1c', sans-serif;
   line-height: 1.8;
@@ -68,26 +68,20 @@
     background: #000;
   }
   .Weekly{
-    border: 2px solid #000;
-  border-radius: 0;
-  font-size: 3vw;
+  border: 2px solid #000;
+  font-size: 2.5vw;
   font-weight:bolder; /*太字に*/
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   line-height: 1.8;
   position: relative;
   display: inline-block;
   padding: auto;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  letter-spacing: 0.1em;
   border-radius: 0.5rem;
   width: 35%;
 }
@@ -111,7 +105,6 @@
     background: #ff8095;
     border-radius: 5px;
   }
-  SSCSS
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;

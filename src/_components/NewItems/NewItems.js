@@ -30,7 +30,7 @@ class NewItems extends React.Component {
                     </div>
                     <div className='Continue'>
                         <a href={this.props.link}>
-                        <p>＞＞続きを見る</p>
+                        ＞＞続きを見る
                         </a>
                     </div>
                 </div>

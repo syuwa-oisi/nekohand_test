@@ -4,6 +4,7 @@
     border: 3px solid;
     border-color: black;
     background-color: lightslategray;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 2%;
 }

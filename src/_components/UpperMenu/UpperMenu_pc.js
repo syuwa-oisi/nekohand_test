@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
+import './UpperMenu.css';
 
 class UpperMenu extends React.Component {
     render() {
@@ -7,11 +8,11 @@ class UpperMenu extends React.Component {
         <div className='header'>
           <div>
             <Navbar bg="light" expand="lg">
-                    <Container>
+                    <Container className='UpperMenu'>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto" class="navbar-collapse justify-content-around">
-                            <NavDropdown title="カード" id="basic-nav-dropdown">
+                        <Nav className="me-auto" class="navbar-collapse justify-content-around" >
+                            <NavDropdown title='カード' id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/CardSearch">カード検索</NavDropdown.Item>
                                 <NavDropdown.Item href="/CardView">閲覧数ランキング</NavDropdown.Item>
                                 <NavDropdown.Item href="/CardPrice">価格変動ランキング</NavDropdown.Item>
