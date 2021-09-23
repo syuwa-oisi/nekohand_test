@@ -17,7 +17,7 @@ const options = [
 class Header extends React.Component {
   render() {
     return (
-      <div className='header'>
+      <div className='header-pc'>
         <div className='header-logo' href="/">
           <a href="/">
           <img src= {HeaderLogo} alt="Logo" href="/"/>
