@@ -11,23 +11,27 @@
     padding: 10px;
 }
 .HistryTitle{
-    display: flex;
-    flex-flow: column;
-    justify-content:flex-end;
-    align-items: center;
-    font-size: 56px;
-    font-weight:bolder; /*太字に*/
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    padding-left: 2%;
+  display: flex;
+  flex-flow: column;
+  justify-content:flex-end;
+  align-items: center;
+  width: 20vw;
 }
-.HistrySubTitle{
-    text-align: left;
-    color:black;
-    font-size: 40px;
-    font-weight:bolder; /*太字に*/
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    margin-top:-10% ;
-    margin-bottom: -5%;
+.Title{
+font-size: 5vw;
+font-weight:bolder; /*太字に*/
+font-family: 'M PLUS Rounded 1c', sans-serif;
+padding-left: 2%;
+padding-bottom: 1vw;
+}
+.SubTitle{
+  text-align: left;
+  color:black;
+  font-size: 3.5vw;
+  font-weight:bolder; /*太字に*/
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin-top:-10% ;
+  margin-bottom: -5%;
 }
 .Continue{
     text-align: right;
@@ -39,68 +43,3 @@
     justify-content: space-between;
     align-items: center;
 }
-.Daily{
-    border: 2px solid #000;
-  border-radius: 0;
-  font-size: 1.6rem;
-  font-weight:bolder; /*太字に*/
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  line-height: 2.0;
-  position: relative;
-  display: inline-block;
-  padding: auto;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  width: 30%;
-  height: 501%;
-
-}
-.Daily:hover {
-    color: #fff;
-    background: #000;
-  }
-  .Weekly{
-    border: 2px solid #000;
-  border-radius: 0;
-  font-size: 1.6rem;
-  font-weight:bolder; /*太字に*/
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  line-height: 2.0;
-  position: relative;
-  display: inline-block;
-  padding: auto;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  border-radius: 0.5rem;
-  width: 30%;
-}
-.Weekly:hover {
-    color: #fff;
-    background: #000;
-  }
-  .SwichButtons{
-      width: 40%;
-      height: 100%;
-  }
-  .Active{
-    color: #fff;
-    background: #000;
-  }
-  .Passive{
-    background: #fff;
-    color: #212529;
-  }
