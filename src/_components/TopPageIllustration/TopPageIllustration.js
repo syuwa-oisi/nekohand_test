@@ -1,5 +1,5 @@
 import React from 'react';
-import Illustlation from'../../_assets/images/png/hedder';
+import Illustlation from'../../_assets/images/png/hedder.png';
 import TitleLogo from '../../_assets/images/png/logo_black.png';
 import './TopPageIllustration.css';
 
