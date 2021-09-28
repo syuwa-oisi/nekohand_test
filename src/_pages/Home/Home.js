@@ -12,6 +12,9 @@ function Home() {
   return (
     <div className="App">
       <TopPageIllustration/>
+      <div className='TopPageIllustrator'>
+        illust：+風(<a href="https://twitter.com/aida_bito" target="_blank">@aida_bito</a>)
+      </div>
       <RankingCol DailyData = {DailyData}  WeeklyData = {WeeklyData} RankingTitle='VIEW RANKING' RankingSubTitle='閲覧数ランキング' link="/CardView"/>
       <RankingCol DailyData = {DailyData}  WeeklyData = {WeeklyData} RankingTitle='HOT RANKING' RankingSubTitle='価格変動ランキング' link="/CardPrice"/>
       <RankingCol DailyData = {DailyData}  WeeklyData = {WeeklyData} RankingTitle='RECCOMEND' RankingSubTitle='支援者オススメカード' link="/CardReccomend"/>
