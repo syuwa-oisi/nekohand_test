@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nekohand_test/static/css/main.cd107252.chunk.css",
-    "main.js": "/nekohand_test/static/js/main.4574c326.chunk.js",
-    "main.js.map": "/nekohand_test/static/js/main.4574c326.chunk.js.map",
+    "main.js": "/nekohand_test/static/js/main.880c30e7.chunk.js",
+    "main.js.map": "/nekohand_test/static/js/main.880c30e7.chunk.js.map",
     "runtime-main.js": "/nekohand_test/static/js/runtime-main.f316f434.js",
     "runtime-main.js.map": "/nekohand_test/static/js/runtime-main.f316f434.js.map",
     "static/css/2.d14172c2.chunk.css": "/nekohand_test/static/css/2.d14172c2.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.cd107252.chunk.css.map": "/nekohand_test/static/css/main.cd107252.chunk.css.map",
     "static/js/2.015b8aba.chunk.js.LICENSE.txt": "/nekohand_test/static/js/2.015b8aba.chunk.js.LICENSE.txt",
     "static/media/Header_logo.90259bea.png": "/nekohand_test/static/media/Header_logo.90259bea.png",
-    "static/media/ilust_rough.9d65b9c9.jpg": "/nekohand_test/static/media/ilust_rough.9d65b9c9.jpg",
+    "static/media/hedder.57f4fefd.png": "/nekohand_test/static/media/hedder.57f4fefd.png",
     "static/media/logo_black.5b41c83f.png": "/nekohand_test/static/media/logo_black.5b41c83f.png"
   },
   "entrypoints": [
@@ -23,6 +23,6 @@
     "static/css/2.d14172c2.chunk.css",
     "static/js/2.015b8aba.chunk.js",
     "static/css/main.cd107252.chunk.css",
-    "static/js/main.4574c326.chunk.js"
+    "static/js/main.880c30e7.chunk.js"
   ]
 }
