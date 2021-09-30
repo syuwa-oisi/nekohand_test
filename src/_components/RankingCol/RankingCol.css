@@ -1,3 +1,4 @@
+@media (max-width: 1280px){
 .RankingPlates{
     display: flex;
     width: 100%;
@@ -18,14 +19,14 @@
     align-items: center;
     width: 40vw;
 }
-.Title{
+.RankingColTitle{
   font-size: 5vw;
   font-weight:bolder; /*太字に*/
   font-family: 'M PLUS Rounded 1c', sans-serif;
   padding-left: 2%;
   padding-bottom: 1vw;
 }
-.SubTitle{
+.RankingColSubTitle{
     text-align: left;
     color:black;
     font-size: 3.5vw;
@@ -126,3 +127,134 @@
   background: lightgray;
   border-radius: 5px;
 }
+}
+@media (min-width: 1280px){
+  .RankingPlates{
+      display: flex;
+      width: 100%;
+      border-top: 3px solid;
+      border-bottom: 3px solid;
+      border-color: black;
+      background-color: lightslategray;
+      overflow-x: scroll;
+  }
+  .RankingItems{
+      position: static;
+      padding: 10px;
+  }
+  .RankingTitle{
+      display: flex;
+      flex-flow: column;
+      justify-content:flex-end;
+      align-items: center;
+      width: 512px;
+  }
+  .RankingColTitle{
+    font-size: 64px;
+    font-weight:bolder; /*太字に*/
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-left: 2%;
+    padding-bottom: 12.8px;
+  }
+  .RankingColSubTitle{
+      text-align: left;
+      color:black;
+      font-size: 44.8px;
+      font-weight:bolder; /*太字に*/
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      margin-top:-10% ;
+      margin-bottom: -5%;
+  }
+  .Continue{
+      text-align: right;
+      padding-right: 2%;
+  }
+  .RankingColHeader{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  .Daily{
+    border: 2px solid #000;
+    font-size: 32px;
+    font-weight:bolder; /*太字に*/
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 1.8;
+    position: relative;
+    display: inline-block;
+    padding: auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    width: 35%;
+  }
+  .Daily:hover {
+      color: #fff;
+      background: #000;
+    }
+    .Weekly{
+    border: 2px solid #000;
+    font-size: 32px;
+    font-weight:bolder; /*太字に*/
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 1.8;
+    position: relative;
+    display: inline-block;
+    padding: auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    width: 35%;
+  }
+  .Weekly:hover {
+      color: #fff;
+      background: #000;
+    }
+    .SwichButtons{
+        width: 40%;
+        height: 100%;
+    }
+    .Active{
+      color: #fff;
+      background: #000;
+    }
+    .Passive{
+      background: #fff;
+      color: #212529;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ff8095;
+      border-radius: 5px;
+    }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:gray;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:black;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: lightgray;
+    border-radius: 5px;
+  }
+  }

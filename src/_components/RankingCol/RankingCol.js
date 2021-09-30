@@ -23,10 +23,10 @@ class RankingCol extends React.Component {
             <div>
                 <div  className = 'RankingColHeader'>
                     <div className='RankingTitle'>
-                        <div className='Title'>
+                        <div className='RankingColTitle'>
                             <p>{this.props.RankingTitle}</p>
                         </div>
-                        <div className='SubTitle'>
+                        <div className='RankingColSubTitle'>
                             <p>{this.props.RankingSubTitle}</p>
                         </div>
                     </div>

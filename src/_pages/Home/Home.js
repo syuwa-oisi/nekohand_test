@@ -19,7 +19,7 @@ function Home() {
       <RankingCol DailyData = {DailyData}  WeeklyData = {WeeklyData} RankingTitle='HOT RANKING' RankingSubTitle='価格変動ランキング' link="/CardPrice"/>
       <RankingCol DailyData = {DailyData}  WeeklyData = {WeeklyData} RankingTitle='RECCOMEND' RankingSubTitle='支援者オススメカード' link="/CardReccomend"/>
       <div className='flex'>
-        <NewItems RankingData = {SubData} RankingTitle='NEW ITEMS' RankingSubTitle='新着商品' link="/CardPrice"/>
+        <NewItems RankingData = {SubData} RankingTitle='ITEMS' RankingSubTitle='新着商品' link="/CardPrice"/>
         <NewItems RankingData = {SubData} RankingTitle='NEWS' RankingSubTitle='新着情報' link="/CardPrice"/>
       </div>
       <History RankingTitle='History' RankingSubTitle='更新情報'/>

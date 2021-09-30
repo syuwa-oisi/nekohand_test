@@ -1,3 +1,4 @@
+@media (max-width: 1280px){
 .NewItemsPlates{
     display: flex;
     width: 100%;
@@ -15,21 +16,21 @@
     position: static;
     padding: 10px;
 }
-.NewItemsTitle{
+.NewItemsHead{
     display: flex;
     flex-flow: column;
     justify-content:flex-end;
     align-items: center;
     width: 30vw;
 }
-.Title{
+.NewItemsTitle{
   font-size: 5vw;
   font-weight:bolder; /*太字に*/
   font-family: 'M PLUS Rounded 1c', sans-serif;
   padding-left: 2%;
   padding-bottom: 1vw;
 }
-.SubTitle{
+.NewItemsSubTitle{
     text-align: left;
     color:black;
     font-size: 3.5vw;
@@ -48,3 +49,56 @@
     justify-content: space-between;
     align-items: center;
 }
+}
+@media (min-width: 1280px){
+    .NewItemsPlates{
+        display: flex;
+        width: 100%;
+        border: 3px solid;
+        border-color: black;
+        background-color: lightslategray;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 2%;
+    }
+    .NewItemsMain{
+        width: 95%;
+    }
+    .RankingItems{
+        position: static;
+        padding: 10px;
+    }
+    .NewItemsHead{
+        display: flex;
+        flex-flow: column;
+        justify-content:flex-end;
+        align-items: center;
+        width: 384px;
+    }
+    .NewItemsTitle{
+      font-size: 64px;
+      font-weight:bolder; /*太字に*/
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      padding-left: 2%;
+      padding-bottom: 12.8px;
+    }
+    .NewItemsSubTitle{
+        text-align: left;
+        color:black;
+        font-size: 44.8px;
+        font-weight:bolder; /*太字に*/
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        margin-top:-10% ;
+        margin-bottom: -5%;
+    }
+    .Continue{
+        text-align: right;
+        padding-right: 2%;
+    }
+    .NewItemsHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    }
