@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/nekohand_test/static/css/main.3bbc8f26.chunk.css",
-    "main.js": "/nekohand_test/static/js/main.23555cca.chunk.js",
-    "main.js.map": "/nekohand_test/static/js/main.23555cca.chunk.js.map",
+    "main.css": "/nekohand_test/static/css/main.2864bce2.chunk.css",
+    "main.js": "/nekohand_test/static/js/main.04ce811c.chunk.js",
+    "main.js.map": "/nekohand_test/static/js/main.04ce811c.chunk.js.map",
     "runtime-main.js": "/nekohand_test/static/js/runtime-main.f316f434.js",
     "runtime-main.js.map": "/nekohand_test/static/js/runtime-main.f316f434.js.map",
     "static/css/2.d14172c2.chunk.css": "/nekohand_test/static/css/2.d14172c2.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.c1835ea2.chunk.js.map": "/nekohand_test/static/js/3.c1835ea2.chunk.js.map",
     "index.html": "/nekohand_test/index.html",
     "static/css/2.d14172c2.chunk.css.map": "/nekohand_test/static/css/2.d14172c2.chunk.css.map",
-    "static/css/main.3bbc8f26.chunk.css.map": "/nekohand_test/static/css/main.3bbc8f26.chunk.css.map",
+    "static/css/main.2864bce2.chunk.css.map": "/nekohand_test/static/css/main.2864bce2.chunk.css.map",
     "static/js/2.015b8aba.chunk.js.LICENSE.txt": "/nekohand_test/static/js/2.015b8aba.chunk.js.LICENSE.txt",
     "static/media/Header_logo.90259bea.png": "/nekohand_test/static/media/Header_logo.90259bea.png",
     "static/media/hedder.57f4fefd.png": "/nekohand_test/static/media/hedder.57f4fefd.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.f316f434.js",
     "static/css/2.d14172c2.chunk.css",
     "static/js/2.015b8aba.chunk.js",
-    "static/css/main.3bbc8f26.chunk.css",
-    "static/js/main.23555cca.chunk.js"
+    "static/css/main.2864bce2.chunk.css",
+    "static/js/main.04ce811c.chunk.js"
   ]
 }
