@@ -21,7 +21,7 @@
 .Title{
 font-size: 5vw;
 font-weight:bolder; /*太字に*/
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1p', sans-serif;
 padding-left: 2%;
 padding-bottom: 1vw;
 }
@@ -30,7 +30,7 @@ padding-bottom: 1vw;
   color:black;
   font-size: 3.5vw;
   font-weight:bolder; /*太字に*/
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   margin-top:-10% ;
   margin-bottom: -5%;
 }

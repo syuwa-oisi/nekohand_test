@@ -19,8 +19,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <UpperMenu/>
+      <div className="fixed">
+        <Header/>
+        <UpperMenu/>
+      </div>
+      <div className="content">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
@@ -58,6 +61,7 @@ function App() {
         </Route>
       </Switch>
     </BrowserRouter>
+    </div>
       <Footer/>
     </div>
   );

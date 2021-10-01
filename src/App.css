@@ -33,7 +33,13 @@
   display: flex;
   justify-content: space-between;
 }
-
+.fixed{
+  position: fixed;
+  z-index: 2;
+}
+.content{
+  padding-top: 112px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
